@@ -1,0 +1,13 @@
+{
+  "name": "yuksalish-website-qa",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:routes": "python scripts/check_routes.py",
+    "test:php": "php tests/content.php"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.58.0"
+  }
+}

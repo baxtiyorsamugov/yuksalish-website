@@ -1,0 +1,36 @@
+/* Noto Sans supplies six Uzbek Cyrillic glyphs absent from Manrope. */
+@font-face {
+  font-family: Manrope;
+  src: url("/assets/fonts/uzbek-400.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0492-0493, U+049A-049B, U+04B2-04B3;
+}
+@font-face {
+  font-family: Manrope;
+  src: url("/assets/fonts/uzbek-500.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+0492-0493, U+049A-049B, U+04B2-04B3;
+}
+@font-face {
+  font-family: Manrope;
+  src: url("/assets/fonts/uzbek-600.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+0492-0493, U+049A-049B, U+04B2-04B3;
+}
+@font-face {
+  font-family: Manrope;
+  src: url("/assets/fonts/uzbek-700.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+0492-0493, U+049A-049B, U+04B2-04B3;
+}
+@font-face {
+  font-family: Manrope;
+  src: url("/assets/fonts/uzbek-800.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  unicode-range: U+0492-0493, U+049A-049B, U+04B2-04B3;
+}
