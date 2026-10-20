@@ -1,0 +1,17 @@
+services:
+  legacy:
+    build: ./docker/php
+    ports:
+      - "${WEB_BIND_IP:-127.0.0.1}:${LEGACY_PORT:-8089}:80"
+    environment:
+      DB_HOST: db
+      DB_PORT: "3306"
+      DB_NAME: legacy_reference
+      DB_USER: ${DB_USER:-yuksalish_dev}
+      DB_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in .env}
+    volumes:
+      - ./legacy-site:/var/www/html:ro
+      - ./docker/php/legacy-preview.ini:/usr/local/etc/php/conf.d/legacy-preview.ini:ro
+    depends_on:
+      db:
+        condition: service_healthy
