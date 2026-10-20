@@ -1,0 +1,17 @@
+# Source archives and database exports are kept outside Git.
+/*.zip
+/*.sql
+/.env
+/.env.*
+!/.env.example
+
+# Local copies of the old site and runtime data.
+/legacy-site/
+/data/
+**/error_log
+**/*.log
+**/.idea/
+
+# Local tooling.
+.DS_Store
+Thumbs.db
