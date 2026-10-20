@@ -17,8 +17,19 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Set up browser checks
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install browser check dependencies
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
       - name: Check Python syntax
-        run: python3 -m py_compile scripts/prepare_legacy_preview.py
+        run: python3 -m py_compile scripts/prepare_legacy_preview.py scripts/check_routes.py
 
       - name: Check PHP syntax
         run: |
@@ -44,6 +55,26 @@ jobs:
           test "$ready" -eq 1
           docker compose --env-file .env.example exec -T web php -r \
             '$pdo = new PDO("mysql:host=" . getenv("DB_HOST") . ";dbname=" . getenv("DB_NAME"), getenv("DB_USER"), getenv("DB_PASSWORD")); if ($pdo->query("SELECT 1")->fetchColumn() != 1) { exit(1); }'
+
+      - name: Check selected content and translations
+        run: docker run --rm -v "$PWD:/workspace:ro" -w /workspace php:8.4-cli php tests/content.php
+
+      - name: Check public routes and browser flows
+        env:
+          BASE_URL: http://127.0.0.1:8088
+        run: |
+          python3 scripts/check_routes.py
+          npm test
+
+      - name: Save browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-site-qa
+          path: |
+            artifacts/screenshots
+            artifacts/browser-results.json
+          retention-days: 7
 
       - name: Stop containers
         if: always()

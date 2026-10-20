@@ -1,0 +1,9 @@
+{
+  "aliases": {
+    "project": "projects", "hududiy": "regions", "membership": "join", "books": "library",
+    "audit": "reports", "activities": "mission", "jamoatchilik": "councils", "csonewsletter": "newsletter", "social2": "activity"
+  },
+  "preserved": ["about", "structure", "team", "activity", "partners", "news", "experts", "events", "news_detail/938", "news_detail/937", "news_detail/936", "news_detail/935", "news_detail/934", "news_detail/933", "project_detail/47", "project_detail/46", "project_detail/45", "experts_detail/35", "experts_detail/34", "experts_detail/33", "events_detail/4", "events_detail/3"],
+  "not_migrated": ["project_detail/39", "project_detail/32", "project_detail/7"],
+  "note": "Registry covers the selected content and main public navigation. Unselected archive records return a real 404, never an unrelated redirect. Complete archive migration is a separate milestone. Root ?lang=uz|uzc|ru|en remains supported."
+}

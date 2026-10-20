@@ -15,3 +15,7 @@
 # Local tooling.
 .DS_Store
 Thumbs.db
+/.tools/
+/artifacts/
+**/__pycache__/
+/node_modules/
