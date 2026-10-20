@@ -22,7 +22,7 @@ Inspected on 2026-10-20 from `idea (3).zip` and `news (1).sql`, without extracti
 
 ## Next milestones
 
-1. Agree on required pages, languages, administration features, visual direction, and ownership of the new repository.
+1. Agree on required pages, administration features, and visual direction. The new site will retain all four existing languages; a design reference is forthcoming.
 2. Set up a reproducible local PHP/Apache and MySQL-compatible development environment.
 3. Build the new public site and administration area in small sections.
 4. Import available content, verify routes and forms, then test the LAN preview with both collaborators.
