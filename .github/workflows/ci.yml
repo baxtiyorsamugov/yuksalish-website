@@ -33,8 +33,15 @@ jobs:
       - name: Start site and test database connection
         run: |
           docker compose --env-file .env.example up -d --build web
-          curl --fail --silent --show-error --retry 10 --retry-connrefused --retry-delay 2 \
-            http://127.0.0.1:8088/ | grep -q 'Yuksalish'
+          ready=0
+          for attempt in $(seq 1 20); do
+            if curl --fail --silent http://127.0.0.1:8088/ | grep -q 'Yuksalish'; then
+              ready=1
+              break
+            fi
+            sleep 1
+          done
+          test "$ready" -eq 1
           docker compose --env-file .env.example exec -T web php -r \
             '$pdo = new PDO("mysql:host=" . getenv("DB_HOST") . ";dbname=" . getenv("DB_NAME"), getenv("DB_USER"), getenv("DB_PASSWORD")); if ($pdo->query("SELECT 1")->fetchColumn() != 1) { exit(1); }'
 
