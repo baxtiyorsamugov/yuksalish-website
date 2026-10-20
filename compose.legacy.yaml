@@ -1,6 +1,7 @@
 services:
   legacy:
     build: ./docker/php
+    restart: unless-stopped
     ports:
       - "${WEB_BIND_IP:-127.0.0.1}:${LEGACY_PORT:-8089}:80"
     environment:
