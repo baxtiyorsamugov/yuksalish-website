@@ -50,6 +50,11 @@
     "retrieved": "2026-10-20"
   },
   {
+    "asset": "/assets/images/yuksalish-logo.png",
+    "source": "User-provided file: yuksalish logo (2).png",
+    "retrieved": "2026-10-20"
+  },
+  {
     "asset": "/assets/images/document-0.webp",
     "source": "https://yumh.uz/images/news/metodic_pos_uz.jpg",
     "retrieved": "2026-10-20"
@@ -153,5 +158,353 @@
     "asset": "/assets/images/event-3.webp",
     "source": "https://yumh.uz/images/news/213.jpg",
     "retrieved": "2026-10-20"
+  },
+  {
+    "asset": "/assets/images/partners/united-nations.svg",
+    "source": "https://yumh.uz/images/partner/un.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/world-bank.svg",
+    "source": "https://yumh.uz/images/partner/wb.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/undp.svg",
+    "source": "https://yumh.uz/images/partner/undp-logo.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/usaid.svg",
+    "source": "https://yumh.uz/images/partner/USAID_en.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/development-strategy-center.svg",
+    "source": "https://yumh.uz/images/partner/Center-uzb.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/acted.svg",
+    "source": "https://yumh.uz/images/partner/logo_acted.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Original artwork and alpha retained; SVG viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/osce.svg",
+    "source": "https://yumh.uz/images/partner/logo_obce.svg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original artwork and alpha retained; SVG viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/european-union.svg",
+    "source": "https://yumh.uz/images/partner/logo_eurounion.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/el-yurt-umidi-foundation.svg",
+    "source": "https://yumh.uz/images/partner/eler.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/uk-aid.svg",
+    "source": "https://yumh.uz/images/partner/usa.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/hisense.svg",
+    "source": "https://yumh.uz/images/partner/his.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/huawei.svg",
+    "source": "https://yumh.uz/images/partner/hua.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/regional-dialogue.svg",
+    "source": "https://yumh.uz/images/partner/logo_rd.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Original artwork and alpha retained; SVG viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/peacenexus.svg",
+    "source": "https://yumh.uz/images/partner/pis.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/business-ombudsman-of-uzbekistan.svg",
+    "source": "https://yumh.uz/images/partner/logo_ombudsman_bizness.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Original artwork and alpha retained; SVG viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/institute-of-initiatives.svg",
+    "source": "https://yumh.uz/images/partner/logo_initiative.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Original artwork and alpha retained; SVG viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/konrad-adenauer-stiftung.svg",
+    "source": "https://yumh.uz/images/partner/New-Logo-KAS.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/unicef.svg",
+    "source": "https://yumh.uz/images/partner/unicef.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/argo.svg",
+    "source": "https://yumh.uz/images/partner/argo_logo-color-CMYK-safe-no_words.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/korea-legislation-research-institute.svg",
+    "source": "https://yumh.uz/images/partner/klri.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/federation-of-trade-unions-of-kazakhstan.svg",
+    "source": "https://yumh.uz/images/partner/kazs.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/ombudsman-of-uzbekistan.svg",
+    "source": "https://yumh.uz/images/partner/ombudsman.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/youth-union-of-uzbekistan.svg",
+    "source": "https://yumh.uz/images/partner/souz.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/national-association-of-electronic-mass-media-of-uzbekistan.svg",
+    "source": "https://yumh.uz/images/partner/nemi.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/british-embassy-tashkent.svg",
+    "source": "https://yumh.uz/images/partner/logo_british_e.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Original artwork and alpha retained; SVG viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/republican-center-for-spirituality-and-enlightenment.svg",
+    "source": "https://yumh.uz/images/partner/Manaviat.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/shanghai-university.svg",
+    "source": "https://yumh.uz/images/partner/shis.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/chonnam-national-university.svg",
+    "source": "https://yumh.uz/images/partner/chon.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Original embedded unchanged; transparent white-matte SVG filter and viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/elsevier.svg",
+    "source": "https://yumh.uz/images/partner/logo_elsevier.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Original artwork and alpha retained; SVG viewBox crop"
+  },
+  {
+    "asset": "/assets/images/partners/united-nations.png",
+    "source": "https://yumh.uz/images/partner/un.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/world-bank.png",
+    "source": "https://yumh.uz/images/partner/wb.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/undp.png",
+    "source": "https://yumh.uz/images/partner/undp-logo.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/usaid.png",
+    "source": "https://yumh.uz/images/partner/USAID_en.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/development-strategy-center.png",
+    "source": "https://yumh.uz/images/partner/Center-uzb.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/acted.png",
+    "source": "https://yumh.uz/images/partner/logo_acted.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/osce.png",
+    "source": "https://yumh.uz/images/partner/logo_obce.svg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/european-union.png",
+    "source": "https://yumh.uz/images/partner/logo_eurounion.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/el-yurt-umidi-foundation.png",
+    "source": "https://yumh.uz/images/partner/eler.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/uk-aid.png",
+    "source": "https://yumh.uz/images/partner/usa.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/hisense.png",
+    "source": "https://yumh.uz/images/partner/his.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/huawei.png",
+    "source": "https://yumh.uz/images/partner/hua.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/regional-dialogue.png",
+    "source": "https://yumh.uz/images/partner/logo_rd.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/peacenexus.png",
+    "source": "https://yumh.uz/images/partner/pis.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/business-ombudsman-of-uzbekistan.png",
+    "source": "https://yumh.uz/images/partner/logo_ombudsman_bizness.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/institute-of-initiatives.png",
+    "source": "https://yumh.uz/images/partner/logo_initiative.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/konrad-adenauer-stiftung.png",
+    "source": "https://yumh.uz/images/partner/New-Logo-KAS.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/unicef.png",
+    "source": "https://yumh.uz/images/partner/unicef.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/argo.png",
+    "source": "https://yumh.uz/images/partner/argo_logo-color-CMYK-safe-no_words.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/korea-legislation-research-institute.png",
+    "source": "https://yumh.uz/images/partner/klri.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/federation-of-trade-unions-of-kazakhstan.png",
+    "source": "https://yumh.uz/images/partner/kazs.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/ombudsman-of-uzbekistan.png",
+    "source": "https://yumh.uz/images/partner/ombudsman.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/youth-union-of-uzbekistan.png",
+    "source": "https://yumh.uz/images/partner/souz.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/national-association-of-electronic-mass-media-of-uzbekistan.png",
+    "source": "https://yumh.uz/images/partner/nemi.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/british-embassy-tashkent.png",
+    "source": "https://yumh.uz/images/partner/logo_british_e.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/republican-center-for-spirituality-and-enlightenment.png",
+    "source": "https://yumh.uz/images/partner/Manaviat.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/shanghai-university.png",
+    "source": "https://yumh.uz/images/partner/shis.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/chonnam-national-university.png",
+    "source": "https://yumh.uz/images/partner/chon.jpg",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
+  },
+  {
+    "asset": "/assets/images/partners/elsevier.png",
+    "source": "https://yumh.uz/images/partner/logo_elsevier.png",
+    "retrieved": "2026-10-21",
+    "preparation": "Lossless PNG export of prepared native SVG artwork at up to 512 x 256; alpha retained, no live SVG filter in browser"
   }
 ]

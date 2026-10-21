@@ -1,0 +1,146 @@
+/* Opaque surfaces keep navigation readable above photographs and moving waves. */
+.header-inner {
+  position: relative;
+  background: #fff;
+  border-color: #d8e5e7;
+  box-shadow: 0 8px 28px #244f5812;
+}
+.main-nav {
+  background: #edf4f5;
+}
+.nav-dropdown,
+.language-options,
+.article-contents {
+  background: #fff;
+  border-color: #c7dadd;
+  box-shadow: 0 12px 36px #244f5814;
+}
+.nav-dropdown a:hover,
+.nav-dropdown a[aria-current],
+.language-options a:hover,
+.language-options a[aria-current] {
+  background: #edf5f6;
+  color: var(--accent-dark);
+}
+.button,
+.share-button,
+.filter-tabs a,
+.pagination a,
+.circle-arrow,
+.menu-toggle,
+.language-switch summary {
+  background: #fff;
+  border: 1px solid #c7dadd;
+  color: var(--ink);
+  box-shadow: none;
+}
+.button,
+.back-to-top {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.button:hover,
+.back-to-top:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+.button-secondary,
+.button-secondary:hover {
+  background: #fff;
+  border-color: #c7dadd;
+  color: var(--ink);
+  box-shadow: none;
+}
+.button-secondary:hover,
+.share-button:hover,
+.pagination a:not([aria-current]):hover,
+.menu-toggle:hover,
+.language-switch summary:hover {
+  background: #edf5f6;
+  border-color: #b5d1d5;
+  color: var(--accent-dark);
+  box-shadow: none;
+}
+.filter-tabs a[aria-current],
+.pagination a[aria-current] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: none;
+}
+.filter-tabs a[aria-current]:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+.filter-tabs a:not([aria-current]):hover {
+  background: #edf5f6;
+  color: var(--accent-dark);
+  box-shadow: none;
+}
+.filter-count,
+.button > .icon {
+  background: #fff;
+}
+.language-switch summary {
+  border-radius: 12px;
+  padding-inline: 8px;
+}
+.nav-item {
+  isolation: isolate;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.nav-item.is-active,
+.nav-item.is-active:hover {
+  background: transparent;
+  box-shadow: none;
+}
+.nav-item.is-active .nav-toggle:hover {
+  background: var(--accent-dark);
+  color: #fff;
+}
+.nav-highlight {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: var(--accent);
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.3s, transform 0.35s cubic-bezier(0.22, 0.7, 0.25, 1), background-color 0.3s;
+  pointer-events: none;
+}
+.nav-item.is-active > .nav-highlight {
+  opacity: 1;
+  transform: none;
+}
+.nav-item.is-active:hover > .nav-highlight {
+  background: var(--accent-dark);
+}
+.nav-link,
+.nav-toggle,
+.language-switch summary {
+  transition: background-color 0.25s, color 0.25s;
+}
+.filter-tabs a {
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.toast.visible {
+  background: var(--ink);
+}
+@media (max-width: 1023px) {
+  .main-nav.is-open,
+  .no-js .main-nav {
+    background: #fff;
+    border-color: #c7dadd;
+  }
+  .main-nav .nav-dropdown {
+    background: #f3f7f8;
+    box-shadow: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-highlight {
+    transform: none;
+  }
+}

@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 require __DIR__ . '/ContentRepository.php';
+require __DIR__ . '/ArticlePresenter.php';
 $translations = require __DIR__ . '/translations.php';
 $languages = ['uz'=>['O‘zbekcha','uz-Latn'], 'uzc'=>['Ўзбекча','uz-Cyrl'], 'ru'=>['Русский','ru'], 'en'=>['English','en']];
 $path = trim(rawurldecode(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/'), '/');
@@ -27,6 +28,10 @@ function current_url(string $language): string {
 }
 function icon(string $name='arrow', string $class=''): string {
     return '<svg class="icon '.e($class).'" aria-hidden="true"><use href="/assets/icons/sprite.svg#'.e($name).'"></use></svg>';
+}
+function asset(string $path): string {
+    $file = ($_SERVER['DOCUMENT_ROOT'] ?? '') . $path;
+    return $path . (is_file($file) ? '?v=' . filemtime($file) : '');
 }
 function category(array $item): string {
     if ($item['kind'] === 'events') return 'events';

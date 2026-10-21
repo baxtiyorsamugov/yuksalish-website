@@ -45,8 +45,12 @@ for (const width of [360, 390, 768, 1280, 1440]) {
         const geometry = await page.evaluate(() => ({
           width: innerWidth,
           scroll: document.documentElement.scrollWidth,
+          headerHeight: document
+            .querySelector(".site-header")
+            .getBoundingClientRect().height,
         }));
         expect(geometry.scroll, route).toBeLessThanOrEqual(geometry.width);
+        expect(geometry.headerHeight, route).toBeLessThan(110);
         const clipped = await page
           .locator("h1,h2,h3")
           .evaluateAll((elements) =>
@@ -81,6 +85,7 @@ for (const language of languages) {
 
 test("filters, search, pagination and empty state", async ({ page }) => {
   await page.goto("/en/news");
+  await expect(page.locator(".catalog-result")).toContainText("Results: 6");
   await page
     .getByRole("navigation", { name: "Pages", exact: true })
     .getByRole("link", { name: "2", exact: true })
@@ -89,6 +94,16 @@ test("filters, search, pagination and empty state", async ({ page }) => {
   await expect(page.locator(".catalog-grid article")).toHaveCount(2);
   await page.goto("/en/projects?category=environment");
   await expect(page.locator(".catalog-grid article")).toHaveCount(1);
+  await expect(page.locator(".catalog-result")).toContainText("Results: 1");
+  await page.getByRole("searchbox").fill("no-match");
+  await page.getByRole("button", { name: "Search", exact: true }).click();
+  await expect(page.locator(".catalog-result")).toContainText("Results: 0");
+  await page.getByRole("link", { name: "Clear search", exact: true }).click();
+  await expect(page).toHaveURL(/category=environment/);
+  await expect(page.getByRole("searchbox")).toHaveValue("");
+  await expect(page.locator(".catalog-grid article")).toHaveCount(1);
+  await page.getByRole("link", { name: "Clear filters", exact: true }).click();
+  await expect(page.locator(".catalog-grid article")).toHaveCount(3);
   await page.goto("/en/news?q=zzzz-no-result");
   await expect(page.locator(".empty-state")).toBeVisible();
   await page.getByRole("link", { name: "Clear filters" }).click();
@@ -105,15 +120,65 @@ test("mobile menu and keyboard escape", async ({ page }) => {
   const toggle = page.getByRole("button", { name: "Menu", exact: true });
   await toggle.click();
   await expect(toggle).toHaveAttribute("aria-expanded", "true");
-  await page.locator(".nav-group").first().locator("summary").click();
+  const sectionToggle = page.getByRole("button", {
+    name: "Section menu: About us",
+    exact: true,
+  });
+  await sectionToggle.click();
   await expect(
     page.getByRole("link", { name: "Our mission", exact: true }),
   ).toBeVisible();
+  fs.mkdirSync("artifacts/screenshots", { recursive: true });
+  await page.screenshot({
+    path: "artifacts/screenshots/menu-mobile.png",
+    animations: "disabled",
+  });
   await page.keyboard.press("Escape");
-  await expect(page.locator(".nav-group").first()).not.toHaveAttribute("open");
+  await expect(sectionToggle).toHaveAttribute("aria-expanded", "false");
+  await expect(sectionToggle).toBeFocused();
   await page.keyboard.press("Escape");
   await expect(toggle).toHaveAttribute("aria-expanded", "false");
   await expect(toggle).toBeFocused();
+});
+
+test("primary navigation opens dropdowns from one button before following section links", async ({
+  page,
+}) => {
+  await page.goto("/en");
+  await page
+    .getByRole("button", { name: "Section menu: Projects", exact: true })
+    .click();
+  await expect(page).toHaveURL(/\/en$/);
+  await expect(page.locator(".nav-item").filter({ has: page.locator('[aria-controls="nav-projects"]') }).locator(":scope > button, :scope > a")).toHaveCount(1);
+  await page.locator('#nav-projects a[href="/en/projects"]').click();
+  await expect(page).toHaveURL(/\/en\/projects$/);
+  await expect(page.locator(".nav-item.is-active .nav-toggle")).toHaveText(
+    "Projects",
+  );
+  await page
+    .getByRole("button", { name: "Section menu: Media", exact: true })
+    .click();
+  await expect(
+    page
+      .locator(".nav-dropdown")
+      .getByRole("link", { name: "Publications", exact: true }),
+  ).toBeVisible();
+  await page
+    .getByRole("button", {
+      name: "Section menu: About us",
+      exact: true,
+    })
+    .click();
+  await expect(
+    page
+      .locator(".nav-dropdown")
+      .getByRole("link", { name: "Publications", exact: true }),
+  ).not.toBeVisible();
+  await page
+    .locator(".nav-dropdown")
+    .getByRole("link", { name: "Our mission", exact: true })
+    .click();
+  await expect(page.locator("h1")).toHaveText("Our mission");
 });
 
 test("keyboard navigation and source-language notice", async ({ page }) => {
@@ -137,7 +202,7 @@ test("reduced motion and broken-image fallback", async ({ page }) => {
   await page.goto("/en");
   expect(
     await page
-      .locator(".orbit-one")
+      .locator(".y-monogram")
       .evaluate((el) => getComputedStyle(el).animationName),
   ).toBe("none");
   expect(
@@ -160,6 +225,15 @@ test("public pages work without JavaScript", async ({ browser }) => {
   await page.goto("/en/projects?category=environment");
   await expect(page.locator(".catalog-grid article")).toHaveCount(1);
   await expect(page.locator(".main-nav")).toBeVisible();
+  await page.locator(".nav-fallback summary").first().click();
+  expect(
+    await page.evaluate(() => document.documentElement.scrollWidth),
+  ).toBeLessThanOrEqual(390);
+  await page.getByRole("link", { name: "Our mission", exact: true }).click();
+  await expect(page.locator("h1")).toHaveText("Our mission");
+  expect(
+    await page.evaluate(() => document.documentElement.scrollWidth),
+  ).toBeLessThanOrEqual(390);
   await context.close();
 });
 
@@ -211,6 +285,10 @@ test("local assets and screenshot evidence", async ({ page }) => {
   await page.screenshot({
     path: path.join(output, "home-full.png"),
     fullPage: true,
+    animations: "disabled",
+  });
+  await page.locator('section[aria-labelledby="news-title"]').screenshot({
+    path: path.join(output, "news-section-desktop.png"),
     animations: "disabled",
   });
   await page.goto("/ru/projects");

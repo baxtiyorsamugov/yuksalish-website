@@ -1,0 +1,34 @@
+body {
+  isolation: isolate;
+}
+.ambient-waves {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100dvh;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 90% 12%, #d4ecee88, transparent 65%);
+}
+.reveal {
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.reveal:focus-within {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+.content-card,
+.card-image img {
+  transition-duration: 0.55s;
+  transition-timing-function: cubic-bezier(0.22, 0.7, 0.25, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    transition-delay: 0ms;
+  }
+}
+@media print {
+  .ambient-waves { display: none; }
+}

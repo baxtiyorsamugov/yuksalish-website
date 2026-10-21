@@ -27,6 +27,11 @@ foreach (['news','projects','events'] as $collection) {
 foreach ($repository->all('documents') as $document) {
     check(file_get_contents(__DIR__.'/../app/public'.$document['url'],false,null,0,4)==='%PDF','Invalid PDF');
 }
+foreach ($repository->all('partners') as $partner) {
+    check(filter_var($partner['url'], FILTER_VALIDATE_URL) !== false, 'Partner links must be real URLs');
+    check($partner['source'] === 'https://yumh.uz/uz/partners', 'Partner must retain public provenance');
+    check(is_file(__DIR__.'/../app/public'.$partner['image']), 'Missing local partner artwork');
+}
 try {
     new ContentRepository(__DIR__.'/missing-file.json');
     throw new RuntimeException('Missing content did not fail');

@@ -6,6 +6,7 @@
       "translations": {
         "uz": {
           "title": "Geosiyosiy qarshi o‘yin: Yaqin Sharq, Markaziy Osiyo va kuchlarning yangi konfiguratsiyasi",
+          "display_title": "Geosiyosiy qarshi o‘yin",
           "blocks": [
             {
               "type": "paragraph",
@@ -76,6 +77,7 @@
         },
         "ru": {
           "title": "Геополитическая контригра: Ближний Восток, Центральная Азия и новая конфигурация сил",
+          "display_title": "Геополитическая контригра",
           "blocks": [
             {
               "type": "paragraph",
@@ -138,6 +140,7 @@
         },
         "en": {
           "title": "Geopolitical Counterplay: The Middle East, Central Asia, and the New Balance of Power",
+          "display_title": "Geopolitical Counterplay",
           "blocks": [
             {
               "type": "paragraph",
@@ -209,6 +212,7 @@
       "translations": {
         "uz": {
           "title": "“Yuksalish” harakati “Halollik sari ilk qadam” loyihasini boshlamoqda",
+          "display_title": "«Halollik sari ilk qadam» loyihasi",
           "blocks": [
             {
               "type": "paragraph",
@@ -295,6 +299,7 @@
         },
         "uzc": {
           "title": "«Юксалиш» ҳаракати «Ҳалоллик сари илк қадам» лойиҳасини бошламоқда",
+          "display_title": "«Ҳалоллик сари илк қадам» лойиҳаси",
           "blocks": [
             {
               "type": "paragraph",
@@ -393,6 +398,7 @@
         },
         "ru": {
           "title": "Движение «Юксалиш» запускает проект «Первый шаг к честности»",
+          "display_title": "Проект «Первый шаг к честности»",
           "blocks": [
             {
               "type": "paragraph",
@@ -491,6 +497,7 @@
         },
         "en": {
           "title": "Yuksalish Movement Launches the “First Step Toward Integrity” Project",
+          "display_title": "First Step Toward Integrity",
           "blocks": [
             {
               "type": "paragraph",
@@ -598,6 +605,7 @@
       "translations": {
         "uz": {
           "title": "\"Yuksalish\" harakati Qoraqalpoq davlat universitetidagi Yuridik klinikani ta’mirlash bo‘yicha tanlov e’lon qiladi!",
+          "display_title": "Yuridik klinikani ta’mirlash bo‘yicha tanlov",
           "blocks": [
             {
               "type": "paragraph",
@@ -1809,7 +1817,9 @@
             }
           ],
           "excerpt": "Amalga oshirish muddati: 2024-yil, dekabr – 2025-yil, may.",
-          "display_title": "Mediata’lim va faktcheking"
+          "display_title": "Mediata’lim va faktcheking",
+          "project_period": "2024-yil dekabr — 2025-yil may",
+          "project_audience": "Jurnalistlar, blogerlar va OAV xodimlari"
         },
         "uzc": {
           "title": "Медиатаълим ва фактчекинг: танқидий фикрлаш ва ахборот саводхонлигини ривожлантириш",
@@ -1852,7 +1862,9 @@
             }
           ],
           "excerpt": "A малга ошириш муддати: 2024 йил, декабр – 2025 йил, май.",
-          "display_title": "Медиатаълим ва фактчекинг"
+          "display_title": "Медиатаълим ва фактчекинг",
+          "project_period": "2024 йил декабр — 2025 йил май",
+          "project_audience": "Журналистлар, блогерлар ва ОАВ ходимлари"
         },
         "ru": {
           "title": "«Медиаобразование и проверка фактов: развитие критического мышления и информационной грамотности»",
@@ -1887,7 +1899,9 @@
             }
           ],
           "excerpt": "Проект реализуется д вижение м «Юксалиш» при финансировании Европейск ого Союз а.",
-          "display_title": "Медиаобразование и фактчекинг"
+          "display_title": "Медиаобразование и фактчекинг",
+          "project_period": "Декабрь 2024 — май 2025",
+          "project_audience": "Журналисты, блогеры и сотрудники СМИ"
         },
         "en": {
           "title": "\"Media Literacy and Fact-Checking: Developing Critical Thinking and Information Literacy\"",
@@ -1918,7 +1932,9 @@
             }
           ],
           "excerpt": "The project is implemented by the Yuksalish movement with funding from the European Union. Implementation period: December 2024 – May 2025.",
-          "display_title": "Media literacy and fact-checking"
+          "display_title": "Media literacy and fact-checking",
+          "project_period": "December 2024 — May 2025",
+          "project_audience": "Journalists, bloggers and media professionals"
         }
       },
       "source": "https://yumh.uz/uz/project_detail/47",
@@ -1982,7 +1998,9 @@
             }
           ],
           "excerpt": "Loyiha maqsadi: Ekolog va ekofaollarga atrof-muhitni muhofaza qilishga doir g‘oyalarni ilgari surish va sohadagi muammolarga qonuniy yechimlar topish ko‘nikmalarini o‘rgatish.",
-          "display_title": "Ekologlar va faollar salohiyati"
+          "display_title": "Ekologlar va faollar salohiyati",
+          "project_period": "2025-yil yanvar — aprel",
+          "project_audience": "Ekologlar va ekofaollar"
         },
         "ru": {
           "title": "«Повышение потенциала экологов и активистов в вопросах охраны окружающей среды»",
@@ -2045,7 +2063,9 @@
             }
           ],
           "excerpt": "Обучение экологов и экоактивистов навыкам адвокации и продвижению идей по защите окружающей среды на высоком уровне.",
-          "display_title": "Развитие компетенций экологов и активистов"
+          "display_title": "Развитие компетенций экологов и активистов",
+          "project_period": "Январь — апрель 2025",
+          "project_audience": "Экологи и экоактивисты"
         }
       },
       "source": "https://yumh.uz/uz/project_detail/46",
@@ -2173,7 +2193,9 @@
             }
           ],
           "excerpt": "Loyiha “Yuksalish” harakati va Toshkent shahar “Umidvorlik” nogiron bolalarga yordam berish markazi tomonidan Solidaritätsdienst International e.V. (SODI, Germaniya) nodavlat tashkiloti bilan hamkorlikda Germaniya Iqtisodiy hamkorlik va rivojlanish federal vazirligi (BMZ) moliyaviy ko’magida amalga oshirilmoqda.",
-          "display_title": "Yoshlarning ijtimoiy-iqtisodiy inklyuziyasi"
+          "display_title": "Yoshlarning ijtimoiy-iqtisodiy inklyuziyasi",
+          "project_period": "2022–2025",
+          "project_audience": "18–35 yoshdagi yoshlar, shu jumladan nogironligi bo‘lgan yoshlar"
         },
         "ru": {
           "title": "“СОЦИАЛЬНАЯ И ЭКОНОМИЧЕСКАЯ ИНКЛЮЗИЯ СОЦИАЛЬНО НЕЗАЩИЩЕННЫХ МОЛОДЕЖИ В КРИЗИСНЫХ СИТУАЦИЯХ И МОЛОДЫХ ЛЮДЕЙ С ОГРАНИЧЕННЫМИ ВОЗМОЖНОСТЯМИ»",
@@ -2284,7 +2306,10 @@
             }
           ],
           "excerpt": "Проект реализуется Движением «Юксалиш» в партнерстве c Центром поддержки детей с инвалидностью «Умидворлик» и Solidaritatsdienst International e.V. (SODI) при финансовой поддержке Федерального министерства экономического сотрудничества и развития Германии (BMZ) и при поддержке национальных партнеров: Министерства занятости и сокращения бедности, Агентства по делам молодежи, Ассоциации волонтеров Узбекистана.",
-          "display_title": "Социальная и экономическая инклюзия молодёжи"
+          "display_title": "Социальная и экономическая инклюзия молодёжи",
+          "heading_title": "“Социальная и экономическая инклюзия социально незащищенных молодежи в кризисных ситуациях и молодых людей с ограниченными возможностями»",
+          "project_period": "2022–2025",
+          "project_audience": "Молодёжь 18–35 лет, в том числе молодые люди с инвалидностью"
         },
         "en": {
           "title": "SOCIAL AND ECONOMIC INCLUSION OF SOCIALLY VULNERABLE YOUTH IN CRISIS SITUATIONS, AND YOUNG PEOPLE WITH DISABILITIES",
@@ -2335,7 +2360,10 @@
             }
           ],
           "excerpt": "Improving the quality of life of disadvantaged young people aged 18-35 (including people with disabilities) by empowering them to exercise their rights and improve their personal and professional prospects. Development of professional, personal, creative and communication skills to increase their competitiveness in the labor market, and ultimately, employability",
-          "display_title": "Social and economic inclusion of young people"
+          "display_title": "Social and economic inclusion of young people",
+          "heading_title": "Social and economic inclusion of socially vulnerable youth in crisis situations, and young people with disabilities",
+          "project_period": "2022–2025",
+          "project_audience": "Young people aged 18–35, including young people with disabilities"
         }
       },
       "source": "https://yumh.uz/uz/project_detail/45",
@@ -2343,7 +2371,7 @@
       "date": "2024-08-04"
     }
   ],
-  "logo": "/assets/images/yuksalish-logo.svg",
+  "logo": "/assets/images/yuksalish-logo.png",
   "about": {
     "uz": [
       "O‘zbekiston Respublikasi Prezidentining 2019-yil 17-yanvardagi “2017-2021-yillarda O‘zbekiston\n        Respublikasini rivojlantirishning beshta ustuvor yo‘nalishi bo‘yicha Harakatlar strategiyasini\n        “Faol investitsiyalar va ijtimoiy rivojlanish yili”da amalga oshirishga oid Davlat dasturi to‘g‘risida”gi\n        farmoniga muvofiq O‘zbekistonda “Yuksalish” harakati tashkil etildi. 2019-yilning\n        24-yanvar kuni esa O‘zbekiston Respublikasi Adliya vazirligida nodavlat notijorat tashkiloti sifatida\n        davlat ro‘yxatidan o‘tkazildi.",
@@ -2449,34 +2477,178 @@
   ],
   "partners": [
     {
-      "url": "https://www.osce.org",
-      "name": "OSCE",
-      "image": "/assets/images/partner-osce.webp"
-    },
-    {
-      "url": "https://peacenexus.org/",
-      "name": "PeaceNexus",
-      "image": "/assets/images/partner-peacenexus.webp"
-    },
-    {
-      "url": "https://www.un.org/",
       "name": "United Nations",
-      "image": "/assets/images/partner-un.webp"
+      "url": "https://www.un.org/",
+      "image": "/assets/images/partners/united-nations.png",
+      "source": "https://yumh.uz/uz/partners"
     },
     {
-      "url": "http://www.worldbank.org/",
       "name": "World Bank",
-      "image": "/assets/images/partner-worldbank.webp"
+      "url": "http://www.worldbank.org/",
+      "image": "/assets/images/partners/world-bank.png",
+      "source": "https://yumh.uz/uz/partners"
     },
     {
-      "url": "http://www.uz.undp.org/",
       "name": "UNDP",
-      "image": "/assets/images/partner-uz.webp"
+      "url": "http://www.uz.undp.org/",
+      "image": "/assets/images/partners/undp.png",
+      "source": "https://yumh.uz/uz/partners"
     },
     {
-      "url": "https://www.unicef.org/",
+      "name": "USAID",
+      "url": "https://www.usaid.gov/",
+      "image": "/assets/images/partners/usaid.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Development Strategy Center",
+      "url": "https://strategy.uz/",
+      "image": "/assets/images/partners/development-strategy-center.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "ACTED",
+      "url": "https://www.acted.org/en/countries/uzbekistan/",
+      "image": "/assets/images/partners/acted.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "OSCE",
+      "url": "https://www.osce.org/ruz",
+      "image": "/assets/images/partners/osce.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "European Union",
+      "url": "https://eeas.europa.eu/delegations/uzbekistan_en",
+      "image": "/assets/images/partners/european-union.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "El-yurt umidi Foundation",
+      "url": "http://eyuf.uz/",
+      "image": "/assets/images/partners/el-yurt-umidi-foundation.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "UK aid",
+      "url": "https://www.ukaiddirect.org/",
+      "image": "/assets/images/partners/uk-aid.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Hisense",
+      "url": "https://global.hisense.com/",
+      "image": "/assets/images/partners/hisense.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Huawei",
+      "url": "https://www.huawei.com/uz/",
+      "image": "/assets/images/partners/huawei.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Regional Dialogue",
+      "url": "https://www.regionaldialogue.org/",
+      "image": "/assets/images/partners/regional-dialogue.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "PeaceNexus",
+      "url": "https://peacenexus.org/",
+      "image": "/assets/images/partners/peacenexus.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Business Ombudsman of Uzbekistan",
+      "url": "https://biznesvakil.uz/uz",
+      "image": "/assets/images/partners/business-ombudsman-of-uzbekistan.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Institute of Initiatives",
+      "url": "http://initiative.uz/",
+      "image": "/assets/images/partners/institute-of-initiatives.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Konrad Adenauer Stiftung",
+      "url": "https://www.kas.de/",
+      "image": "/assets/images/partners/konrad-adenauer-stiftung.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
       "name": "UNICEF",
-      "image": "/assets/images/partner-unicef.webp"
+      "url": "https://www.unicef.org/",
+      "image": "/assets/images/partners/unicef.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "ARGO",
+      "url": "http://argonet.org/",
+      "image": "/assets/images/partners/argo.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Korea Legislation Research Institute",
+      "url": "https://www.klri.re.kr/",
+      "image": "/assets/images/partners/korea-legislation-research-institute.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Federation of Trade Unions of Kazakhstan",
+      "url": "http://www.kzsouz.kz/",
+      "image": "/assets/images/partners/federation-of-trade-unions-of-kazakhstan.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Ombudsman of Uzbekistan",
+      "url": "http://ombudsman.uz/",
+      "image": "/assets/images/partners/ombudsman-of-uzbekistan.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Youth Union of Uzbekistan",
+      "url": "http://yoshlarittifoqi.uz/",
+      "image": "/assets/images/partners/youth-union-of-uzbekistan.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "National Association of Electronic Mass Media of Uzbekistan",
+      "url": "http://www.naesmi.uz/",
+      "image": "/assets/images/partners/national-association-of-electronic-mass-media-of-uzbekistan.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "British Embassy Tashkent",
+      "url": "https://www.gov.uk/world/organisations/british-embassy-tashkent",
+      "image": "/assets/images/partners/british-embassy-tashkent.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Republican Center for Spirituality and Enlightenment",
+      "url": "http://www.manaviyat.uz/",
+      "image": "/assets/images/partners/republican-center-for-spirituality-and-enlightenment.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Shanghai University",
+      "url": "http://en.shu.edu.cn/",
+      "image": "/assets/images/partners/shanghai-university.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Chonnam National University",
+      "url": "http://www.jnu.ac.kr/",
+      "image": "/assets/images/partners/chonnam-national-university.png",
+      "source": "https://yumh.uz/uz/partners"
+    },
+    {
+      "name": "Elsevier",
+      "url": "https://www.elsevier.com/",
+      "image": "/assets/images/partners/elsevier.png",
+      "source": "https://yumh.uz/uz/partners"
     }
   ],
   "editorial": {
